@@ -1,0 +1,187 @@
+
+.divprincipal {
+    display: flex;
+    margin-left: 100px;
+}
+
+.g1 {
+    padding: 100px 50px 100px 100px;
+    
+}
+
+.legenda {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(72, 59, 70);
+    padding: 5px 0 0 0;
+    text-align: center;
+    text-decoration: underline;
+ 
+}
+
+.g2 {
+    padding: 200px 70px 0 0;
+    text-align: center;
+}
+
+.g3 {
+    padding: 100px 50px 0 0;
+    text-align: center;
+}
+
+.tabela {
+    padding: 300px 0 0 100px;
+
+}
+
+.TITULO {
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.T1 {
+    border: 3px solid rgb(156, 156, 156);
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.T2 {
+    text-align: center;
+    background-color: rgb(189, 189, 189);
+    color: rgb(71, 147, 205);
+    font-size: 15PX;
+
+
+}
+
+.T3 {
+    text-align: center;
+    color: rgb(71, 147, 205);
+    font-size: 15PX;
+    background-color: rgb(255, 255, 255);
+}
+
+.g4{padding: 50px 30px 0 30px;
+text-align: center;}
+
+.hallowen{display: flex;
+text-align: center;
+padding: 20px 400px 0 400px;}
+
+.grupo{ padding: 100px 0 40px 320px;
+display: flex;}
+
+.legend{padding: 70px 0 0 0;
+font-size: 15px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(72, 59, 70);
+text-decoration: underline;}
+
+.grupo2{padding: 100px 0 40px 150px;
+display: flex;}
+
+.grupo3{padding: 100px 0 40px 100px;
+display: flex;}
+
+.grupo4{padding: 100px 0 40px 220px;
+display: flex;}
+
+
+
+
+.DIREITOS{color: rgb(255, 255, 255);
+text-align: center;
+padding: 30PX 0 0 0;}
+
+.tabela {border: 4PX rgb(243, 97, 175);; border-style:solid; display: block; text-align: center;display:grid; padding-left: 0; margin-top: 300px; padding-top: 0; margin-left: 30PX;
+    box-shadow:
+    
+    -1em 0.7em 0.3em rgb(109, 109, 109) ; 
+  }
+
+.op1{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: rgb(63, 48, 56); background-color: rgb(255, 255, 255);    text-decoration: none; padding-top: 2px;padding-bottom: 2px;}
+.op2{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: rgb(255, 255, 255); background-color: rgb(63, 48, 56);   text-decoration: none;padding-top: 2px;padding-bottom: 2px;}
+
+.tema{
+    font-family: 'Protest Revolution", sans-serif'; /* Substitua 'NomeDaFonte' pelo nome da fonte desejada */
+    src: url('../Protest_Revolution/ProtestRevolution-Regular.ttf') format('truetype'); /* Substitua o caminho para o arquivo da fonte */
+    color: rgb(255, 255, 255); background-color: rgb(243, 97, 175); margin-bottom: 0; padding-left: 30PX; padding-right: 30PX;
+    font-size: 50PX;
+  }
+
+body{
+   
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container-fluid{ display: flex ;
+    background-color: rgb(63, 48, 56);
+    color: aliceblue;
+}
+
+footer{
+    background-color:rgb(63, 48, 56) ;
+   
+   
+    
+}
+.navbar-nav{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgb(243, 97, 175);
+
+}
+.id1{
+padding-left: 550px;
+padding-right: 500px;
+
+}
+
+
+.RODAIMG{display: flex;
+    padding-left: 780PX;
+    padding-top: 20px;
+}
+
+.R1{padding-right: 20px;}
+.R2{padding-right: 20px;}
+.R3{padding-right: 20px;}
+.R4{padding-right: 20px;}
+
+
+header {
+
+    background: #fff;
+ 
+    position: fixed;
+ 
+    top: 0;
+ 
+    left: 0;
+ 
+    width: 100%;
+ 
+    z-index: 999px;
+ 
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+ 
+ }
+ 
+ 
+ Or more simply this could work:
+ 
+ header  {
+ 
+    background: #fff;
+ 
+    position: fixed;
+ 
+ }
+
+
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+
+
+<style>
+#idMain {
+background-color: rgb(242, 19, 97);
+}
+</style>
+<script></script>
+</head>
+<body class="body">
+<header class="cabeçalho">
+    <img src="static/imag/menu_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" width="40;margin-bottom">
+ 
+    <img class="logo" src="static/imag/23.jpg" width="70; margin-button;">
+    
+    <img class="nome" src="static/imag/text-1729173915253.png" width="300; margin-button;">
+    
+    
+    <div id="divBusca" class="id1">
+    
+       <input class="pesquisa"   type="text" id="txtBusca" placeholder="Buscar..."/>
+    
+       <img class="pesquisar" src="search3.png" id="btnBusca" alt="Buscar"/>
+    </div>
+    
+       <A class="A">AJUDA</A>
+       <A class="B">CONTATO</A>
+       <A class="C">SOBRE</A>
+     >
+    
+       <A class="D" href="site.html">HOME</A>
+</header>
+<nav></nav>
+<main id="idMain" class="main">
+
+<section class="calc"> Caluladora,
+
+<label for="inputN1" class="n1"> N1</label>
+
+<input type="number" name="inputN1" id="inputN1" class="n1.1">
+
+<label for="inputN2" class="n2"> N2</label>
+
+<input type="number" name="inputN2" id="inputN2" class="n2.1">
+
+<button onclick="soma()" type="button">OK</button>
+
+
+<label for="resultado">RESULTADO</label>
+<input type="number" name="resultado" id="resultado">
+</section>
+<article></article>
+<aside></aside>
+</main>
+<footer></footer>
+
+<script>
+function soma() {
+console.log("BOTÃO 'OK' FOI CLICADO");
+n1 = document.getElementById("inputN1").value;
+n2 = document.getElementById("inputN2").value;
+resultado = (parseInt(n1) + parseInt(n2));
+document.getElementById("resultado").value = resultado;
+}
+</script>
+</body>
+</html>
